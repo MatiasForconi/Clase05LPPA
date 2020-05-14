@@ -1,0 +1,67 @@
+2) a-valido
+b-valido
+c-no valido
+d- no valido
+e- no valido
+f- no valido
+
+
+
+3) 365dias / 4563 dias = 12.5 años
+ 
+
+4) var numeroA = 4565;
+   var numeroB = 20.6;
+
+   var resultado = numeroA % numeroB;
+
+   console.log(resultado);
+
+
+
+
+5) valores:
+	   .numero1 = 11
+
+	   .numero2 = 6
+
+	   .resultado1 = 16
+
+	   .resultado2 = 16
+
+
+
+6)
+var $numero1;  correcta
+
+var 13numero_;  incorrecta
+
+var _$letra;  correcta
+
+var $$$otroNumero;  correcta
+
+var $_a__$4;  correcta
+
+var 1numero;  incorrecta
+
+var numero<1_123; incorrecta
+
+
+
+7)Al ejecutar el codigo muestra NaN(No es un numero), osea a la variable numero1 no se le asigno ningun valor y por eso muestra ese error.
+
+
+
+9)
+  a) var valores = [true, false, 0, "hola", "adios", 4, 2];
+
+  if(valores = true){
+    console.log('true');
+} else {
+    console.log('false');
+}
+
+
+
+
+

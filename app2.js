@@ -1,6 +1,23 @@
-// Ejercicio nº8 //
+//Ejercicio 4)  a) //
+var fruta = 'La Manzana es Verde';
+var minus = fruta.toLowerCase();
 
-var meses = ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre'];
+console.log(minus);
 
-alert(meses[5]);
-alert(meses[11]);
+
+//b) //
+var fruta = 'La Manzana es Verde';
+
+console.log(fruta.substring(15, 19));
+
+
+//c) //
+var fruta = 'La Manzana es Verde';
+
+console.log(fruta.substring(3, 5));
+
+
+//d) //
+var fruta = 'La Manzana es Verde';
+
+console.log(fruta.split(' '));

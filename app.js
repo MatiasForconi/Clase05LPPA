@@ -1,34 +1,51 @@
-//Ejercicio nº1//
+/*Ejecicio 3)
+ a)
+*/
+var frutas = ['Manzana', 'Pera', 'Naranja'];
 
-var numA = 20;
-var numB = 50;
+frutas.sort();
 
-var result = numA + numB;
-alert(result);
+console.log(frutas);
 
-var result = numA - numB;
-alert(result);
+//b) //
+var frutas = ['Manzana', 'Pera', 'Naranja'];
 
-var result = numA * numB;
-alert(result);
+frutas.unshift('Ciruela');
 
-var result = numA / numB;
-alert(result);
+console.log(frutas);
 
-numA++;
-alert(numA);
 
-numB++;
-alert(numB);
+//b) //
+var frutas = ['Manzana', 'Pera', 'Naranja'];
 
---numA;
-alert(numA);
+frutas.push('Mandarina');
 
-numA--;
-alert(numA);
+console.log(frutas);
 
---numB;
-alert(numB);
 
-numB--;
-alert(numB);
+//c) //
+var frutas = ['Manzana', 'Pera', 'Naranja'];
+
+frutas.pop();
+
+console.log(frutas);
+
+
+//c) //
+var frutas = ['Manzana', 'Pera', 'Naranja'];
+
+frutas.shift();
+
+console.log(frutas);
+
+
+//d) //
+var frutas = ['Manzana', 'Pera', 'Naranja'];
+
+frutas.reverse();
+
+console.log(frutas);
+
+
+
+

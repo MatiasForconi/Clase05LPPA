@@ -1,17 +1,16 @@
-// Ejercicio nº9) c) //
+//Ejercicio 8 //
+function miFuncion(unNumero, unArray){
+     ++unNumero; unArray.pop(); 
+    }
+    var miNumero = 15;
+    var miArray = ['Un texto', true, 4, 5];
+    miFuncion(miNumero, miArray);
 
-var valores = [true, false, 0, "hola", "adios", 4, 2];
-
-var resultado = valores[1] == valores[2];
-
-if(resultado == true){
-    console.log('correcto');
-}else {
-    console.log('incorrecto');
-}
-
+console.log(miNumero);
+console.log(miArray);
 
 
-/* valores[1] == valores[2] : son iguales.
-valores[1] === valores[2] : no son estrictamente iguales.
+/*
+miNumero = 15
+miArray = ['Un texto', true, 4, ]
 */
